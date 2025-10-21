@@ -1,0 +1,9 @@
+export { default as NewNavbar } from './Navbar/NewNavbar';
+export { default as Footer } from './Footer/Footer';
+export { default as HeroSection } from './HeroSection/HeroSection';
+export { default as ProjectSection } from './ProjectSection/ProjectSection';
+export { default as SkillsSection } from './SkillsSection/SkillsSection';
+export { default as ContactSection } from './ContactSection/ContactSection';
+export { default as GlassSurface } from './GlassSurface/GlassSurface';
+export { default as GlassSurface2 } from './GlassSurface/GlassSurface2';
+export { default as Orb } from './Orb/Orb';

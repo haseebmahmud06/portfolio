@@ -1,0 +1,129 @@
+.orb-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.cosmic-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.4;
+  mix-blend-mode: screen;
+}
+
+.orb-1 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, var(--neon-cyan) 0%, var(--electric-violet) 50%, transparent 70%);
+  top: 10%;
+  left: 10%;
+  animation: float 8s ease-in-out infinite, pulse-cyan 6s ease-in-out infinite;
+}
+
+.orb-2 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, var(--neon-purple) 0%, var(--neon-pink) 50%, transparent 70%);
+  top: 50%;
+  right: 10%;
+  animation: float 12s ease-in-out infinite reverse, pulse-purple 8s ease-in-out infinite 2s;
+}
+
+.orb-3 {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, var(--quantum-teal) 0%, var(--neon-blue) 50%, transparent 70%);
+  bottom: 20%;
+  left: 60%;
+  animation: float 10s ease-in-out infinite 4s, pulse-cyan 7s ease-in-out infinite 1s;
+}
+
+.energy-wave {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vw;
+  border: 2px solid rgba(0, 242, 254, 0.1);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: ripple 8s linear infinite;
+}
+
+.energy-wave::before,
+.energy-wave::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border: inherit;
+  border-radius: inherit;
+  transform: translate(-50%, -50%);
+  animation: inherit;
+}
+
+.energy-wave::before {
+  animation-delay: 2s;
+}
+
+.energy-wave::after {
+  animation-delay: 4s;
+}
+
+@keyframes ripple {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    width: 100vw;
+    height: 100vw;
+    opacity: 0;
+  }
+}
+
+.quantum-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(2px 2px at 10% 20%, var(--neon-cyan) 0%, transparent 100%),
+    radial-gradient(2px 2px at 20% 50%, var(--neon-purple) 0%, transparent 100%),
+    radial-gradient(1px 1px at 30% 80%, var(--neon-pink) 0%, transparent 100%),
+    radial-gradient(1px 1px at 40% 30%, var(--quantum-teal) 0%, transparent 100%),
+    radial-gradient(2px 2px at 50% 60%, var(--electric-violet) 0%, transparent 100%),
+    radial-gradient(1px 1px at 60% 10%, var(--neon-blue) 0%, transparent 100%),
+    radial-gradient(2px 2px at 70% 70%, var(--neon-cyan) 0%, transparent 100%),
+    radial-gradient(1px 1px at 80% 40%, var(--neon-purple) 0%, transparent 100%),
+    radial-gradient(2px 2px at 90% 90%, var(--neon-pink) 0%, transparent 100%);
+  animation: matrix 30s linear infinite;
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .orb-1 {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .orb-2 {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .orb-3 {
+    width: 150px;
+    height: 150px;
+  }
+}
