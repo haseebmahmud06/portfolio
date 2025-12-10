@@ -1,8 +1,8 @@
 export const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with React, Node.js, and MongoDB. Features user authentication, payment processing, and admin dashboard.",
+    title: "carrio-mottors",
+    description: "A full-stack mobile motor app solution with React, Node.js, and MongoDB. Features user authentication, payment processing, and admin dashboard.",
     technologies: ["React", "Node.js", "MongoDB", "Stripe", "Express"],
     liveDemo: "#",
     github: "#",
@@ -21,8 +21,8 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "A responsive weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
+    title: "versity",
+    description: "A responsive application with location-based forecasts, interactive maps, and detailed weather analytics.",
     technologies: ["React", "Chart.js", "OpenWeather API", "CSS3", "Context API"],
     liveDemo: "#",
     github: "#",
@@ -41,7 +41,7 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: "Chat Application",
+    title: "fintech Application",
     description: "Real-time chat application with rooms, file sharing, and emoji reactions. Built with modern web technologies.",
     technologies: ["React", "Express", "Socket.io", "JWT", "MongoDB"],
     liveDemo: "#",
@@ -51,7 +51,7 @@ export const projectsData = [
   },
   {
     id: 6,
-    title: "Fitness Tracker",
+    title: "cargo",
     description: "A comprehensive fitness tracking application with workout plans, progress analytics, and social features.",
     technologies: ["Next.js", "Prisma", "MySQL", "Chart.js", "NextAuth"],
     liveDemo: "#",

@@ -67,7 +67,7 @@ const HeroSection = () => {
           <div className="hero-subtitle reveal">
             <span className="hero-greeting">Hey, I'm </span>
             <span className="hero-name text-gradient">Haseeb</span>
-            <span className="hero-emoji"> 👋</span>
+            <span className="hero-emoji">🍳</span>
           </div>
           
           {/* Animated Typing */}

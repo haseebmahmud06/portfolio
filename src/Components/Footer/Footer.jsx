@@ -42,10 +42,10 @@ const Footer = () => {
             <div className="link-group">
               <h4 className="group-title">Connect</h4>
               <div className="link-items">
-                <a href="https://github.com/haseeb" className="footer-link">GitHub</a>
-                <a href="https://linkedin.com/in/haseeb" className="footer-link">LinkedIn</a>
-                <a href="https://twitter.com/haseeb" className="footer-link">Twitter</a>
-                <a href="mailto:haseeb@example.com" className="footer-link">Email</a>
+                <a href="https://github.com/haseebmahmud06" className="footer-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/haseeb-mahmud" className="footer-link">LinkedIn</a>
+                <a href="#" className="footer-link">Twitter</a>
+                <a href="mailto:mahmudabdulhaseeb2006@gmail.com" className="footer-link">Email</a>
               </div>
             </div>
 
